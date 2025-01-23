@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ekisa. J.opurongo</title>
+    <link rel="icon"href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-Z3JxkHrFmrD2gOd8+0nLW/XazjHtnOKrFb3v2h/WcN5UC4zzR2G+AdNTw2EBT9dR1cP2XZJUhsMnqKHf3fwF0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+    <div id="header">
+<div class="Container">
+    <nav>
+        <img src="images/logo.png" class="logo">
+       
+        <ul id="sidemenu"> 
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <i class="fa fa-times-circle" aria-hidden="true" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa fa-bars" aria-hidden="true" onclick="openmenu()"></i>
+</nav>
+<div class="movingtext">
+    <h2>Welcome!Welcome!</h2>
+    <p>Amazing animation for you Guys! </p>
+
+</div>
+    <div class="header-text">
+        <p>UI/UX Design</p>
+        <h1>Hi! am <span>Ekisa Joseph</span><br>from Busia kenya</h1>
+    </div>
+</div>
+</div>
+ <!------------about--------->
+ <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Bg.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>description about me</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills', event)">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience', event)">Experience</p>
+                        <p class="tab-links" onclick="opentab('education', event)">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UX/UI</span><br>Designing web/app interface</li>
+                            <li><span>Web Development</span><br>Designing web development</li>
+                            <li><span>App Development</span><br>Building Android/IOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>Graphic Design</span><br>
+                                Designing documents like:
+                                 <p> 1.Business card</p>
+                                 <p> 2.Brochuires</p>
+                                 <p> 3.CV</p>
+                                 <p> 4.Letters</p>
+                            </li>
+                            
+                        <li><span>Web Development</span><br>Designing web development</li>
+                        <li><span>App Development</span><br>Building Android/IOS apps</li>
+                    </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Primary</span><br>Kokare primary school</li>
+                            <li><span>Secondary</span><br>Kocholia boys high school</li>
+                            <li><span>University</span><br>University of Eldoret</li>
+                        </ul> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--------------services------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Very good in designing website like portfolio,
+                        Business website and many others
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>Video Editing</h2>
+                    <p>Very interesting part of my work using necessary softwares available inthe market.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div> 
+                    <i class="fas fa-"></i>
+                    <h2>Graphic Designing</h2>
+                    <p>Very good in designing graphic objects like photo shop
+                    charts,Business cards,wedding cards and many others.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------portfolio------------->
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/app.png">
+                    <div class="layer">
+                        <h3>UI/UX Design</h3>
+                        <p>UI/UX are very key part of any interface therefore should be taken into consideration.  </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/ui.jpg">
+                    <div class="layer">
+                        <h3>Mobile app application</h3>
+                        <p>Have developed a number mobile appkication using the necessary tools required</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/ux.jpg">
+                    <div class="layer">
+                        <h3>Social media</h3>
+                        <p>I have good very good knowledge of social media platform</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-------------contact------------->
+      <div id="Contact">
+        <div class="container">
+                <div class="contacts">
+                    <h1 class="sud-tittle">Contact me</h1>
+                     <p><i class="fa fa-envelope" aria-hidden="true"></i>josephekisaopurongo@gmail.com</p>
+                     <p><i class="fa fa-phone-square" aria-hidden="true"></i>0741187375</p>
+                     <div class="social-icons">
+                        <a href="https://www.facebook.com/messages/t/joseph.opurongo"><i class="fab fa-facebook"></i>Chat on Facebook</a>
+                        <a href="https://twitter.com/messages/compose?recipient_id=
+                        @Ekisa02"><i class="fab fa-twitter"></i>Chat on Twitter</a>
+                        <a href="https://www.youtube.com/channel/ekisajosephopurongo"><i class="fab fa-youtube"></i>Youtube</a>
+                        <a href="https://www.linkedin.com/in/josephekisa/message"><i class="fab fa-linkedin"></i>Linkedin</a>
+                    </div>
+                    <a href="doc/CV.pdf" download class="btn2">Download CV</a>
+                    
+                </div>
+
+        </div>
+      </div>
+    
+    <script>
+        var tablinks = document.getElementsByClassName('tab-links');
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname, event){
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+    
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+    
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ekisa Joseph, All right reserved</p>
+            <a href="#header">Back to top</a>
+        </div>
+    </footer>
+</body>
+</html>
